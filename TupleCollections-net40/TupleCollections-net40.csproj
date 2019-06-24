@@ -38,6 +38,7 @@
   <ItemGroup>
     <Compile Include="ICollection.cs" />
     <Compile Include="IEnumerable.cs" />
+    <Compile Include="IList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
