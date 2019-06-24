@@ -36,6 +36,7 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ICollection.cs" />
     <Compile Include="IEnumerable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
