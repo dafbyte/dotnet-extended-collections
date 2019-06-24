@@ -28,7 +28,7 @@ namespace TupleCollections
 	{
 	}
 
-	public interface IEnumerable<T1, T2, T3, T4, T5, T6, T7, TRest> : IEnumerable<Tuple<T1, T2, T3, T4, T5, T6, T7, TRest>>
+	public interface IEnumerable<T1, T2, T3, T4, T5, T6, T7, T8> : IEnumerable<Tuple<T1, T2, T3, T4, T5, T6, T7, T8>>
 	{
 	}
 }
