@@ -39,7 +39,13 @@
     <Compile Include="ICollection.cs" />
     <Compile Include="IEnumerable.cs" />
     <Compile Include="IList.cs" />
-    <Compile Include="List.cs" />
+    <Compile Include="List2.cs" />
+    <Compile Include="List3.cs" />
+    <Compile Include="List4.cs" />
+    <Compile Include="List5.cs" />
+    <Compile Include="List6.cs" />
+    <Compile Include="List7.cs" />
+    <Compile Include="List8.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
