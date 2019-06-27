@@ -37,6 +37,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ICollection.cs" />
+    <Compile Include="IDictionary2.cs" />
+    <Compile Include="IDictionary3.cs" />
+    <Compile Include="IDictionary4.cs" />
+    <Compile Include="IDictionary5.cs" />
+    <Compile Include="IDictionary6.cs" />
+    <Compile Include="IDictionary7.cs" />
+    <Compile Include="IDictionary8.cs" />
     <Compile Include="IEnumerable.cs" />
     <Compile Include="IList.cs" />
     <Compile Include="KeyValuePair2.cs" />
