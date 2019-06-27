@@ -39,6 +39,13 @@
     <Compile Include="ICollection.cs" />
     <Compile Include="IEnumerable.cs" />
     <Compile Include="IList.cs" />
+    <Compile Include="KeyValuePair2.cs" />
+    <Compile Include="KeyValuePair3.cs" />
+    <Compile Include="KeyValuePair4.cs" />
+    <Compile Include="KeyValuePair5.cs" />
+    <Compile Include="KeyValuePair6.cs" />
+    <Compile Include="KeyValuePair7.cs" />
+    <Compile Include="KeyValuePair8.cs" />
     <Compile Include="LinkedList2.cs" />
     <Compile Include="LinkedList3.cs" />
     <Compile Include="LinkedList4.cs" />
