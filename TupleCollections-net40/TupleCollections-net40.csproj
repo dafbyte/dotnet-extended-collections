@@ -37,36 +37,96 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ICollection.cs" />
-    <Compile Include="IDictionary2.cs" />
-    <Compile Include="IDictionary3.cs" />
-    <Compile Include="IDictionary4.cs" />
-    <Compile Include="IDictionary5.cs" />
-    <Compile Include="IDictionary6.cs" />
-    <Compile Include="IDictionary7.cs" />
-    <Compile Include="IDictionary8.cs" />
+    <Compile Include="IDictionary.cs" />
+    <Compile Include="IDictionary2.cs">
+      <DependentUpon>IDictionary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDictionary3.cs">
+      <DependentUpon>IDictionary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDictionary4.cs">
+      <DependentUpon>IDictionary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDictionary5.cs">
+      <DependentUpon>IDictionary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDictionary6.cs">
+      <DependentUpon>IDictionary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDictionary7.cs">
+      <DependentUpon>IDictionary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDictionary8.cs">
+      <DependentUpon>IDictionary.cs</DependentUpon>
+    </Compile>
     <Compile Include="IEnumerable.cs" />
     <Compile Include="IList.cs" />
-    <Compile Include="KeyValuePair2.cs" />
-    <Compile Include="KeyValuePair3.cs" />
-    <Compile Include="KeyValuePair4.cs" />
-    <Compile Include="KeyValuePair5.cs" />
-    <Compile Include="KeyValuePair6.cs" />
-    <Compile Include="KeyValuePair7.cs" />
-    <Compile Include="KeyValuePair8.cs" />
-    <Compile Include="LinkedList2.cs" />
-    <Compile Include="LinkedList3.cs" />
-    <Compile Include="LinkedList4.cs" />
-    <Compile Include="LinkedList5.cs" />
-    <Compile Include="LinkedList6.cs" />
-    <Compile Include="LinkedList7.cs" />
-    <Compile Include="LinkedList8.cs" />
-    <Compile Include="List2.cs" />
-    <Compile Include="List3.cs" />
-    <Compile Include="List4.cs" />
-    <Compile Include="List5.cs" />
-    <Compile Include="List6.cs" />
-    <Compile Include="List7.cs" />
-    <Compile Include="List8.cs" />
+    <Compile Include="KeyValuePair.cs" />
+    <Compile Include="KeyValuePair2.cs">
+      <DependentUpon>KeyValuePair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyValuePair3.cs">
+      <DependentUpon>KeyValuePair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyValuePair4.cs">
+      <DependentUpon>KeyValuePair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyValuePair5.cs">
+      <DependentUpon>KeyValuePair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyValuePair6.cs">
+      <DependentUpon>KeyValuePair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyValuePair7.cs">
+      <DependentUpon>KeyValuePair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyValuePair8.cs">
+      <DependentUpon>KeyValuePair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinkedList.cs" />
+    <Compile Include="LinkedList2.cs">
+      <DependentUpon>LinkedList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinkedList3.cs">
+      <DependentUpon>LinkedList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinkedList4.cs">
+      <DependentUpon>LinkedList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinkedList5.cs">
+      <DependentUpon>LinkedList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinkedList6.cs">
+      <DependentUpon>LinkedList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinkedList7.cs">
+      <DependentUpon>LinkedList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinkedList8.cs">
+      <DependentUpon>LinkedList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List.cs" />
+    <Compile Include="List2.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List3.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List4.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List5.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List6.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List7.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List8.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
