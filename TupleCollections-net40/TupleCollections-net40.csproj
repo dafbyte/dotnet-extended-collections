@@ -37,6 +37,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ICollection.cs" />
+    <Compile Include="ICollectionDictionary.cs" />
     <Compile Include="IDictionary.cs" />
     <Compile Include="IDictionary2.cs">
       <DependentUpon>IDictionary.cs</DependentUpon>
@@ -61,6 +62,7 @@
     </Compile>
     <Compile Include="IEnumerable.cs" />
     <Compile Include="IList.cs" />
+    <Compile Include="IListDictionary.cs" />
     <Compile Include="KeyValuePair.cs" />
     <Compile Include="KeyValuePair2.cs">
       <DependentUpon>KeyValuePair.cs</DependentUpon>
