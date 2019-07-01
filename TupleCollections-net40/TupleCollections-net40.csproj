@@ -127,6 +127,7 @@
     <Compile Include="List8.cs">
       <DependentUpon>List.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListDictionary.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
