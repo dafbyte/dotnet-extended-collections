@@ -36,6 +36,7 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CollectionDictionary.cs" />
     <Compile Include="ICollection.cs" />
     <Compile Include="ICollectionDictionary.cs" />
     <Compile Include="IDictionary.cs" />
