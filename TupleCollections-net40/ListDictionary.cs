@@ -5,7 +5,8 @@ using System.Runtime.Serialization;
 
 namespace TupleCollections
 {
-	public class ListDictionary<TKey, TValue> : Dictionary<TKey, List<TValue>>
+	public class ListDictionary<TKey, TValue> : Dictionary<TKey, List<TValue>>,
+		IListDictionary<TKey, List<TValue>, TValue>
 	{
 		/// <inheritdoc />
 		/// <summary>
@@ -96,6 +97,16 @@ namespace TupleCollections
 		/// </param>
 		protected ListDictionary(SerializationInfo info, StreamingContext context) : base(info, context)
 		{
+		}
+
+		public void Add(TKey key, TValue value)
+		{
+			if (!TryGetValue(key, out var list))
+			{
+				list = new List<TValue>();
+				Add(key, list);
+			}
+			list.Add(value);
 		}
 
 		private void Init(IDictionary<TKey, TValue> dictionary)
